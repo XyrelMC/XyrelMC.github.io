@@ -1,1 +1,1 @@
-xyrelium.com
+xyrelmc.github.io

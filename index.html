@@ -28,9 +28,6 @@
 
 <body style="margin: 0px; max-width: initial; background-color: rgb(255, 255, 255);">
   <script>
-    function showError(errMsg) {
-      $("body").append(`<div style='margin: 25px; font-family: Helvetica, Arial, sans-serif'>Failed to retrieve Google Doc: ${errMsg}<br><br>1) Did you follow the instructions and publish your doc to the web?<br>2) Did you copy/paste your URL correctly?</div>`);
-    };
 
     // Special handling for Safari and Firefox not loading background-color from inline styles
     function handleColorBug(pageBody, styles) {
